@@ -1,4 +1,3 @@
-
 begin
   require 'bones'
 rescue LoadError
@@ -6,6 +5,7 @@ rescue LoadError
 end
 
 ensure_in_path 'lib'
+ensure_in_path 'test'
 require 'looking_glass'
 
 task :default => 'test:run'
