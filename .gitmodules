@@ -1,0 +1,3 @@
+[submodule "vendor/doodle"]
+	path = vendor/doodle
+	url = git://github.com/swistak/doodle.git
