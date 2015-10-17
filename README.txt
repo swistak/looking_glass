@@ -27,6 +27,11 @@ Based on following design patterns/ideas:
 * Command Pattern
 * Message Passing or maybe RPC?
 
+Handling faulures:
+
+- Command pattern, then separate command with query. Server processes the query, saves results untill client acknowledges that he received results.
+- Eventual consistency
+
 http://stackoverflow.com/questions/23013942/handling-failures-in-thrift-in-general
 
 == SYNOPSIS:
