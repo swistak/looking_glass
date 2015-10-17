@@ -1,14 +1,33 @@
-looking_glass
+Looking Glass
     by Marcin Raczkowski 
     http://marcin.raczkowski.wordpress.com
 
+== Tagline
+
+Realtime application framework based on Ruby and Opal
+
 == DESCRIPTION:
 
-A new reflection
+A realtime application framework for writing interactive applications and modules to enhance existing websites.
+
+Use cases:
+
+* Chats/Shoutboxes
+* Games
+* Live Dashboards
+* Monitoring applications
+* Interactive editors
 
 == FEATURES/PROBLEMS:
 
-* FIXME
+Based on following design patterns/ideas:
+
+* Rich Types
+* Presenter pattern
+* Command Pattern
+* Message Passing or maybe RPC?
+
+http://stackoverflow.com/questions/23013942/handling-failures-in-thrift-in-general
 
 == SYNOPSIS:
 
@@ -24,7 +43,7 @@ A new reflection
 
 == LICENSE:
     
-    Copyright (C) 2009 Marcin Raczkowski
+    Copyright (C) 2015 Marcin Raczkowski
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
